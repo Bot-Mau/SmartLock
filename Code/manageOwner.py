@@ -20,7 +20,7 @@ def changeMasterCode:
     
 def editName:
   
-  flag = true
+  flag = True
   
   while(flag):
   
@@ -32,6 +32,6 @@ def editName:
     
       #Send newCode to OwnerClass to update master passCode
       
-      flag = false
+      flag = False
      
      else
