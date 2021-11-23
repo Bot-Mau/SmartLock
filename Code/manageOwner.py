@@ -2,6 +2,8 @@ def changeMasterCode:
   
   flag = True
   
+  count = 0
+  
   print("Changing master passcode...\n")
   
   while(flag):
@@ -16,13 +18,19 @@ def changeMasterCode:
       
       flag = False
      
-     else
+     else:
       
-      print("Incorrect code...\n")
+      print("Incorrect passcode...\n")
+      
+      count += 1
+      
+      Error(count)        # Sending count number to the Error class to check for attempts
     
 def editName:
   
   flag = True
+  
+  count = 0
   
   print("Changing master name...\n")
   
@@ -38,6 +46,10 @@ def editName:
       
       flag = False
      
-     else
+     else:
       
-      print("Incorrect code...\n")
+      print("Incorrect passcode...\n")
+      
+      count += 1
+      
+      Error(count)        # Sending count number to the Error class to check for attempts
