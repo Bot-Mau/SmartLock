@@ -2,9 +2,11 @@ def changeMasterCode:
   
   flag = True
   
+  print("Changing master passcode...\n")
+  
   while(flag):
   
-    if(enteredCode == masterCode): # Use the checker class 
+    if(compareMastercode(enteredCode)): # Use the checker class 
     
       print("Enter new code: ")
     
@@ -16,15 +18,17 @@ def changeMasterCode:
      
      else
       
-      print("Incorrect code\n")
+      print("Incorrect code...\n")
     
 def editName:
   
   flag = True
   
+  print("Changing master name...\n")
+  
   while(flag):
   
-    if(enteredCode == masterCode): # Use the checker class 
+    if(compareMastercode(enteredCode)): # Use the checker class 
     
       print("Enter new name: ")
     
@@ -35,3 +39,5 @@ def editName:
       flag = False
      
      else
+      
+      print("Incorrect code...\n")
