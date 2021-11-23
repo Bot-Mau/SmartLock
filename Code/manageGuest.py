@@ -1,6 +1,8 @@
 def addGuestCode:
       
   flag = True
+
+  count = 0
   
   print("Adding guest code...\n)
   
@@ -12,14 +14,19 @@ def addGuestCode:
       
       flag = False
      
-     else
+     else:
       
-      print("Incorrect code...\n")
-  
+      print("Incorrect passcode...\n")
+      
+      count += 1
+      
+      Error(count)        # Sending count number to the Error class to check for attempts
 
 def changeGuestCode:
     
   flag = True
+            
+  count = 0
             
   print("Changing guest code...\n)
   
@@ -35,13 +42,19 @@ def changeGuestCode:
       
       flag = False
      
-     else
+     else:
       
-      print("Incorrect code\n")
+      print("Incorrect passcode...\n")
+      
+      count += 1
+      
+      Error(count)        # Sending count number to the Error class to check for attempts
     
 def addGuestName:
     
   flag = True
+        
+  count = 0
   
   while(flag):
   
@@ -55,13 +68,19 @@ def addGuestName:
       
       flag = False
      
-     else
+     else:
       
-      print("Incorrect code\n")
+      print("Incorrect passcode...\n")
+      
+      count += 1
+      
+      Error(count)        # Sending count number to the Error class to check for attempts
   
 def removeGuestName:
     
   flag = True
+        
+  count = 0
   
   while(flag):
   
@@ -75,13 +94,19 @@ def removeGuestName:
       
       flag = False
      
-     else
+     else:
       
-      print("Incorrect code\n")
+      print("Incorrect passcode...\n")
+      
+      count += 1
+      
+      Error(count)        # Sending count number to the Error class to check for attempts
       
 def editGuestName:
       
   flag = True
+        
+  count = 0 
   
   while(flag):
   
@@ -95,7 +120,10 @@ def editGuestName:
       
       flag = False
      
-     else
+     else:
       
-      print("Incorrect code\n")
-  
+      print("Incorrect passcode...\n")
+      
+      count += 1
+      
+      Error(count)        # Sending count number to the Error class to check for attempts
