@@ -4,7 +4,7 @@ def addGuestCode:
 
   count = 0
   
-  print("Adding guest code...\n)
+  print("Adding guest code...\n")
   
   while(flag):
   
