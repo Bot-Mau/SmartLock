@@ -12,5 +12,7 @@ CS 3321 Final project by Mauricio Aramburu, Michael Huynh, Kris Nguyen, Tien Ngu
 In this project we are applying the concepts that we learned about the software development and engineering lifecycles to create a smart lock concept application. 
 
 ## Technologies
-For this project we used Python exclusively. We used various different IDE's including Spyder and PyCharm.
-
+PyCharm
+Anaconda Navigator
+Spyder - Scientific Python IDE 
+Using library: `time`
